@@ -1,0 +1,54 @@
+0,1,2,3,4
+BR,1,Brasil,90.5,74.5
+GR,1,Norte,89.7,73.0
+GR,2,Nordeste,88.5,67.0
+GR,3,Sudeste,90.9,76.8
+GR,4,Sul,91.7,77.2
+GR,5,Centro-Oeste,93.6,81.6
+UF,11,Rondônia,93.7,82.7
+UF,12,Acre,87.8,74.7
+UF,13,Amazonas,88.5,70.2
+UF,14,Roraima,92.5,82.1
+UF,15,Pará,89.0,71.1
+UF,16,Amapá,93.2,76.2
+UF,17,Tocantins,89.3,72.9
+UF,21,Maranhão,86.2,66.1
+UF,22,Piauí,88.9,65.1
+UF,23,Ceará,87.4,63.3
+UF,24,Rio Grande do Norte,87.4,69.6
+UF,25,Paraíba,89.3,65.4
+UF,26,Pernambuco,89.0,67.7
+UF,27,Alagoas,88.4,63.8
+UF,28,Sergipe,91.4,70.4
+UF,29,Bahia,89.6,69.6
+UF,31,Minas Gerais,89.4,70.7
+UF,32,Espírito Santo,90.3,73.9
+UF,33,Rio de Janeiro,92.8,80.9
+UF,35,São Paulo,90.9,78.2
+UF,41,Paraná,90.0,73.8
+UF,42,Santa Catarina,93.3,80.9
+UF,43,Rio Grande do Sul,92.3,78.0
+UF,50,Mato Grosso do Sul,89.3,74.6
+UF,51,Mato Grosso,92.8,79.5
+UF,52,Goiás,94.4,82.6
+UF,53,Distrito Federal,96.8,88.3
+RM,1301,Manaus (AM),92.8,78.4
+RM,1501,Belém (PA),91.0,74.5
+RM,1601,Macapá (AP),93.9,79.4
+RM,2101,Grande São Luís (MA),91.4,76.8
+RM,2301,Fortaleza (CE),89.4,70.0
+RM,2401,Natal (RN),92.3,77.1
+RM,2501,João Pessoa (PB),92.5,74.4
+RM,2601,Recife (PE),92.7,77.2
+RM,2701,Maceió (AL),93.8,76.5
+RM,2801,Aracaju (SE),95.1,85.7
+RM,2901,Salvador (BA),90.8,78.4
+RM,3101,Belo Horizonte (MG),93.8,78.6
+RM,3201,Grande Vitória (ES),90.7,77.8
+RM,3301,Rio de Janeiro (RJ),93.3,82.8
+RM,3501,São Paulo (SP),90.0,79.4
+RM,4101,Curitiba (PR),89.4,76.4
+RM,4201,Florianópolis (SC),92.8,85.1
+RM,4301,Porto Alegre (RS),93.7,85.0
+RM,5101,Vale do Rio Cuiabá (MT),91.9,78.1
+RM,5201,Goiânia (GO),95.4,85.4
