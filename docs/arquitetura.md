@@ -1,3 +1,9 @@
+## Diagrama das camadas
+
+```
+[Fonte: IBGE / Disque 100] → raw (bruto, intocável) → staged (schema definido, Parquet) → curated (limpo, validado)
+```
+
 ## Camadas
 
 Esta seção descreve como um arquivo real do projeto (Tabela 7334 do IBGE —
@@ -107,3 +113,20 @@ supera o custo fixo de metadados. Com apenas 53 linhas, esse ponto de
 equilíbrio nem chega perto de ser atingido. A base do Disque 100 (~1,79 GB,
 2,8 milhões de linhas, 62 colunas) é o teste natural para observar o cenário
 oposto, em que o Parquet deve se destacar claramente.
+
+## Registro de procedência: formato proposto
+
+Cada arquivo que entra no projeto gera uma entrada em `docs/procedencia.jsonl`
+(um objeto JSON por linha), com os campos:
+
+- `arquivo`: nome do arquivo na raw
+- `fonte`: de onde veio (URL ou identificação da origem)
+- `data_download`: data e hora em que foi baixado/copiado
+- `tamanho_bytes`: tamanho do arquivo
+- `n_linhas`: quantidade de linhas
+- `sha256`: hash do conteúdo — é o que permite saber se o arquivo mudou desde
+  então: mesmo hash significa mesmo conteúdo, hash diferente significa que a
+  fonte mudou ou o arquivo foi atualizado.
+
+Esse registro é preenchido automaticamente pelo script em `src/extract/`, no
+momento em que o arquivo entra no projeto.

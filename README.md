@@ -9,7 +9,7 @@ de iniciação científica.
   com colunas e tipos padronizados
 - `data/curated`: dados limpos, categorias padronizadas, duplicidades e
   ausentes tratados
-- `src/extract`: scripts de ingestão (baixam/copiam arquivos para raw e
+- `data/src/extract`: scripts de ingestão (baixam/copiam arquivos para raw e
   registram a procedência)
 - `docs/arquitetura.md`: descrição das camadas e diagrama
 
