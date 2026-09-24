@@ -1,7 +1,10 @@
 ## Diagrama das camadas
 
-```
-[Fonte: IBGE / Disque 100] → raw (bruto, intocável) → staged (schema definido, Parquet) → curated (limpo, validado)
+```mermaid
+flowchart LR
+    A[Fontes: IBGE, Disque 100] --> B[raw: dado bruto, intocável]
+    B --> C[staged: schema definido, tipos e nomes padronizados, Parquet]
+    C --> D[curated: limpo, validado, duplicidades tratadas]
 ```
 
 ## Camadas
